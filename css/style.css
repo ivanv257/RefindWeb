@@ -281,6 +281,58 @@ div {
     border-radius: 1px;
 }
 
+/* item 3 */
+
+.portfolio-item-text3{
+    
+    font-size: 1.2em;
+  
+    align-self: center;
+    text-align: left;
+    
+    margin-top: 10rem;
+
+    /* place-self: center;
+    text-align: center; */
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    
+    
+}
+
+
+.portfolio-item-text3 p{
+    
+    padding-right:15rem;
+    
+}
+
+
+.portfolio-item-text3right{
+
+    margin-top: 10rem;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-self: center;
+    /* margin-bottom: 15rem; */
+
+    
+}
+
+.portfolio-item-text3right img{
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 1px;
+   
+}
 
 
 
