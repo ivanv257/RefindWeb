@@ -220,7 +220,7 @@ div {
     grid-row-end: 3;
     align-self: center;
     /* margin-bottom: 15rem; */
-
+    
     
 }
 
@@ -230,6 +230,8 @@ div {
     object-fit: cover;
     border-radius: 1px;
    
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(1px 1px 1px rgb(110, 108, 108));
 }
 
 
@@ -279,6 +281,9 @@ div {
     width: 100%;
     object-fit: cover;
     border-radius: 1px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(1px 1px 1px rgb(110, 108, 108));
 }
 
 /* item 3 */
@@ -332,6 +337,8 @@ div {
     object-fit: cover;
     border-radius: 1px;
    
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(1px 1px 1px rgb(110, 108, 108));
 }
 
 
@@ -363,5 +370,25 @@ div {
         grid-column-end: 1;
     }
 
+}
 
+/*****Contact Section******/
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+input[type="text"], input[type="email"], textarea{
+    border: none;
+    border-bottom: solid 1px #c9c9c9;
+    /* width: 100%; */
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+    height: 69px;
 }
