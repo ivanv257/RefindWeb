@@ -374,9 +374,22 @@ div {
 
 /*****Contact Section******/
 .contact{
+    margin-top: 10rem;
+    width: 50%; /*try this to get items next to each other in flex*/
+}
+
+.contact-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 
@@ -384,11 +397,16 @@ div {
 input[type="text"], input[type="email"], textarea{
     border: none;
     border-bottom: solid 1px #c9c9c9;
-    /* width: 100%; */
+    width: 100%
+    
 }
 
 textarea {
     overflow: hidden;
     resize: none;
     height: 69px;
+}
+
+input[type="submit"], li{
+    list-style: none;
 }
