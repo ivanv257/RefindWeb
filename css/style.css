@@ -421,9 +421,20 @@ textarea {
     resize: none;
     padding-top: 20px;
     height: 100px;
+    width: 90%;
 
 }
 
 input[type="submit"], li{
+ 
     list-style: none;
+    
+}
+
+input[type="submit"]{
+    cursor: pointer; 
+
+    appearance: none;
+    letter-spacing: 0.35em;
+    padding: 0 1.25em 0 1.6em;
 }
