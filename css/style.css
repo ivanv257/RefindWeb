@@ -422,7 +422,7 @@ textarea {
     padding-top: 20px;
     height: 100px;
     width: 90%;
-
+    font-family: inherit;
 }
 
 input[type="submit"], li{
@@ -440,6 +440,7 @@ input[type="submit"]{
 
     box-shadow: none;
     background-color: #585858;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     color: #ffffff !important;
 
     border: 0;
@@ -450,4 +451,9 @@ input[type="submit"]{
     text-transform: uppercase;
 
     font-weight: 700;
+}
+
+input[type="submit"]:hover{
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: #fcc419;
 }
