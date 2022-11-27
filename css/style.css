@@ -437,4 +437,17 @@ input[type="submit"]{
     appearance: none;
     letter-spacing: 0.35em;
     padding: 0 1.25em 0 1.6em;
+
+    box-shadow: none;
+    background-color: #585858;
+    color: #ffffff !important;
+
+    border: 0;
+    border-radius: 2px;
+
+    line-height: 3.45em;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
 }
