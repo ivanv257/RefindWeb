@@ -409,10 +409,18 @@ input[type="text"], input[type="email"], textarea{
     height: 50px;
 }
 
+.name-text, .email-text{
+    display: inline-block;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 auto;
+}
+
 textarea {
     overflow: hidden;
     resize: none;
-    height: 69px;
+    padding-top: 20px;
+    height: 100px;
 
 }
 
