@@ -388,8 +388,6 @@ div {
 
 .contact-header{
     display: flex;
-
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -398,10 +396,17 @@ div {
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 880px;
+    max-width: 50%;
     height: 450px;
     padding: 10px 0;
 
+}
+
+.contact-form h2{
+    font-size: 1.2em;
+    color: #474747;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
 }
 
 
