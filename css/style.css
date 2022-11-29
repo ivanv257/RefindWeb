@@ -352,9 +352,12 @@ div {
 
 
 @media (max-width: 1000px){
-    .portfolio-line {
-        margin: 0 auto;
+
+    /*hidden hr element (line) when screen resizes*/ 
+    hr {
+        display: none;
     }
+
 
     .portfolio{
         display: block;
@@ -384,10 +387,16 @@ div {
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
+        text-align: center;
     }
+
     .portfolio-item-text2right{
         grid-column-start: 1;
         grid-column-end: 1;
+    }
+
+    .portfolio-item-text2 p{
+        padding: 0;
     }
 
 }
