@@ -398,6 +398,23 @@ div {
     .portfolio-item-text2 p{
         padding: 0;
     }
+    .portfolio-item-text3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    .portfolio-item-text3right{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .portfolio-item-text3 p{
+        padding: 0;
+    }
+
+
 
 }
 
