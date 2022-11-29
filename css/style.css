@@ -352,20 +352,32 @@ div {
 
 
 @media (max-width: 1000px){
+    .portfolio-line {
+        margin: 0 auto;
+    }
+
     .portfolio{
         display: block;
         grid-template-columns: 1fr;
+        
     }
 
     .portfolio-item-text1{
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
+        text-align: center;
+
     }
     .portfolio-item-text1right{
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
+        
+    }
+
+    .portfolio-item-text1 p{
+        padding: 0;
     }
 
     .portfolio-item-text2{
@@ -396,7 +408,7 @@ div {
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 45%;
     height: 350px;
     padding: 10px 0;
 
