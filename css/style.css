@@ -360,19 +360,25 @@ div {
 
 
     .portfolio{
+        margin-top: 10rem;
         display: block;
         grid-template-columns: 1fr;
         
     }
 
+
     .portfolio-item-text1{
+        margin-top: 10rem;
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
         text-align: center;
+        padding: 3rem;
+        
 
     }
     .portfolio-item-text1right{
+        margin-top: 10rem;
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
@@ -384,15 +390,20 @@ div {
     }
 
     .portfolio-item-text2{
+        margin-top: 10rem;
+        
         grid-column-start: 1;
         grid-column-end: 1;
         margin-bottom: 5rem;
         text-align: center;
+        padding: 3rem;
     }
 
     .portfolio-item-text2right{
+        margin-top: 10rem;
         grid-column-start: 1;
         grid-column-end: 1;
+        
     }
 
     .portfolio-item-text2 p{
@@ -403,6 +414,7 @@ div {
         grid-column-end: 1;
         margin-bottom: 5rem;
         text-align: center;
+        padding: 3rem;
     }
 
     .portfolio-item-text3right{
@@ -516,4 +528,11 @@ input[type="submit"]:hover{
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     background-color: #fcc419;
     color: #585858 !important;
+}
+
+/*mobile - heading form of contact form resize*/ 
+@media (max-width: 600px){
+    .contact-form h2{
+        font-size: 0.8em;
+    }
 }
