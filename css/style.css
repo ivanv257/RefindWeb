@@ -28,11 +28,14 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center 45%; 
-    display: flex;
+    
     position: relative;
     overflow: hidden;
-    align-items: flex-start;
-    justify-content: left;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-flow: row wrap; */
 }
 
 div {
@@ -57,6 +60,26 @@ div {
   font-size: 22px;  
 }
 
+
+.navigation{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+   
+    color: #fff;
+    /* margin: 0 auto; */
+
+}
+
+
+
+.navigation ul li{
+    display: inline-block;
+    margin-top: 75px;
+    
+}
 
 /**************** new section ***************/
 
